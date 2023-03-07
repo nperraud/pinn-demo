@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "simple-pinn-torch"
+version = "0.1.0"
+description = ""
+authors = ["Nathanaël Perraudin <nathanael.perraudin@sdsc.ethz.ch>"]
+readme = "README.md"
+packages = [{include = "simple_pinn_torch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "*"
+numpy = "*"
+matplotlib = "*"
+jupyterlab = "*"
+pytorch-lightning = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
